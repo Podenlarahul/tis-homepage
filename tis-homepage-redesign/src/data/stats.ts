@@ -1,0 +1,1 @@
+export const stats = [{value:22, suffix:'+', label:'Acres Campus'},{value:2013, suffix:'', label:'Established'},{value:100, suffix:'%', label:'CBSE Boarding'},{value:25, suffix:'+', label:'Sports & Activities'}]

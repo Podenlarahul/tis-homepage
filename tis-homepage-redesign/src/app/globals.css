@@ -1,0 +1,31 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #FFFBF5;
+  --bg-soft: #F6F0E8;
+  --card: #FFFFFF;
+  --text: #0A1931;
+  --text-muted: rgba(10,25,49,0.6);
+  --border: rgba(10,25,49,0.08);
+  --gold: #C5A880;
+  --navy: #0A1931;
+}
+.dark {
+  --bg: #0F0F10;
+  --bg-soft: #17171A;
+  --card: #1C1C1F;
+  --text: #FFFBF5;
+  --text-muted: rgba(255,251,245,0.6);
+  --border: rgba(255,251,245,0.08);
+}
+* { font-family: 'Inter', sans-serif; }
+.font-serif { font-family: 'Playfair Display', serif; }
+body { background: var(--bg); color: var(--text); transition: background 0.4s ease, color 0.4s ease; }
+.custom-cursor { will-change: transform; }
+@media (pointer: coarse) { .custom-cursor { display: none !important; } }
+@media (pointer: fine) { * { cursor: none !important; } }

@@ -1,0 +1,1 @@
+export const navigation = [{label:'About', href:'#about'},{label:'Academics', href:'#academics'},{label:'Campus Life', href:'#campus'},{label:'Admissions', href:'#admissions'}]
